@@ -1,11 +1,11 @@
 # wistron-ipmi-oem
 
 ## Supported Commands
-- Detect Riser-F
+- Detect the presence of Riser-F
 
 ## Command Documentation
 
-### Detect Riser-F
+### Detect the presence of Riser-F
 Netfun: 0x32
 Command: 0x01
 
@@ -16,3 +16,4 @@ command to detect riser cards.
 If the current riser-F is used, i2c command will get a data. If other riser
 cards are used, the i2c command will not get the data and will get a negative
 return value.
+
